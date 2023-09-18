@@ -1,0 +1,122 @@
+html, body {
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 0;
+}
+
+
+body {
+    height: 100%;
+}
+
+header,
+    footer {
+      padding: 20px 50px;
+    }
+
+@media screen and (max-width: 996px) {
+    header nav {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      
+    }
+    header nav img {
+      margin-bottom: 20px;
+    }
+    header,
+    footer {
+      padding: 20px 20px;
+    }
+    }
+
+  .lien-icone{
+    transition: 0.3s;
+  }
+    
+  .lien-icone:hover{
+    opacity: 0.8;
+    scale: 1.2;
+  } 
+    
+  nav {
+        display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-between;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          background-color:rgba(0, 0, 0, 0.7);
+          padding: 15px;
+          border-radius: 10px;
+      }
+
+#footer{
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+  }      
+
+.container {
+    /*background-image: url("images/background_health.jpeg");*/
+    background-color: rgb(188, 188, 188);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+
+table { 
+  
+    margin: auto;
+    width: 90%;
+    border-spacing: 10px;
+    
+    
+    
+}
+
+td {
+    border-radius: 10px;
+   /* background:rgba(128, 152, 172, 0.4);
+    border: 1px solid;*/
+    padding: 15px;
+    box-shadow: 0px 4px 16px rgba(0,0,0,0.9);
+    
+      
+}
+
+td::-webkit-scrollbar {
+  width: 50px;
+}
+
+th {
+  padding: 50px;
+  border-radius: 10px;
+  border-style: none;
+}
+table h2 {
+  text-decoration:underline;
+  color: rgb(191, 147, 72);
+  text-align: center;
+  font-weight:bolder;
+}
+
+p {
+  text-align:justify;
+}
+
+@media( max-width: 650px) {
+
+  
+
+  td{
+    display: block;
+  }
+  
+}
+
